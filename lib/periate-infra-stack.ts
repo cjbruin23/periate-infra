@@ -6,8 +6,6 @@ import {
   aws_ec2 as EC2,
   CfnOutput,
 } from "aws-cdk-lib";
-import { IpAddresses } from "aws-cdk-lib/aws-ec2";
-import { Ec2Action } from "aws-cdk-lib/aws-cloudwatch-actions";
 
 export class PeriateInfraStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
